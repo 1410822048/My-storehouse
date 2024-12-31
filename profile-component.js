@@ -1,5 +1,5 @@
 const ProfileComponent = (props) => {
-  let { currentUser, setCurrentUser } = props;
+  let [ currentUser, setCurrentUser ] = props;
 
   return (
     <div style={{ padding: "3rem" }}>
